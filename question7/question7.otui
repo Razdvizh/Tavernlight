@@ -1,0 +1,12 @@
+MainWindow
+  !text: tr('Question 7')
+  size: 640 360
+
+  Button
+    id: button
+    anchors.top: parent.top
+    anchors.right: parent.right
+    !text: tr('Jump!')
+    width: 50
+    height: 25
+    @onClick: modules.client_question7.jump()

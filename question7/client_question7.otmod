@@ -1,0 +1,7 @@
+Module
+  name: client_question7
+  sandboxed: true
+  autoload: true
+  scripts: [ question7 ]
+  @onLoad: init()
+  @onUnload: terminate()
